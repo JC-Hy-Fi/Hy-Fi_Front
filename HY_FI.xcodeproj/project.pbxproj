@@ -95,9 +95,9 @@
 		94A2B2882A568FD0003CA425 /* HY_FI */ = {
 			isa = PBXGroup;
 			children = (
+				94A2B2B42A56A7D8003CA425 /* View */,
 				94A2B2B32A569287003CA425 /* HY-FI-Info.plist */,
 				94A2B2892A568FD0003CA425 /* HY_FIApp.swift */,
-				94A2B28B2A568FD0003CA425 /* ContentView.swift */,
 				94A2B28D2A568FD1003CA425 /* Assets.xcassets */,
 				94A2B28F2A568FD1003CA425 /* Preview Content */,
 			);
@@ -127,6 +127,14 @@
 				94A2B2A62A568FD2003CA425 /* HY_FIUITestsLaunchTests.swift */,
 			);
 			path = HY_FIUITests;
+			sourceTree = "<group>";
+		};
+		94A2B2B42A56A7D8003CA425 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94A2B28B2A568FD0003CA425 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
